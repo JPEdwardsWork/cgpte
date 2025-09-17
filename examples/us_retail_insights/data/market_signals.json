@@ -1,0 +1,10 @@
+[
+  {"date": "2024-05-12", "metric": "ecommerce_conversion", "segment": "Apparel", "value": 1.6},
+  {"date": "2024-05-12", "metric": "ecommerce_conversion", "segment": "Beauty", "value": 1.9},
+  {"date": "2024-05-12", "metric": "foot_traffic_index", "segment": "Big Box", "value": 0.95},
+  {"date": "2024-05-12", "metric": "foot_traffic_index", "segment": "Mall", "value": 1.08},
+  {"date": "2024-05-05", "metric": "ecommerce_conversion", "segment": "Apparel", "value": 1.4},
+  {"date": "2024-05-05", "metric": "ecommerce_conversion", "segment": "Beauty", "value": 1.7},
+  {"date": "2024-05-05", "metric": "foot_traffic_index", "segment": "Big Box", "value": 0.91},
+  {"date": "2024-05-05", "metric": "foot_traffic_index", "segment": "Mall", "value": 1.04}
+]
