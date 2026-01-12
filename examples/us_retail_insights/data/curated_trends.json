@@ -1,0 +1,26 @@
+[
+  {
+    "trend": "Value-seeking omnichannel",
+    "insight": "Shoppers are prioritizing price transparency and expect consistent promotions across mobile, web, and store visits.",
+    "implications": [
+      "Run weekly price parity checks across owned channels",
+      "Bundle loyalty credits with pickup and delivery offers"
+    ]
+  },
+  {
+    "trend": "AI-enabled loss prevention",
+    "insight": "Shrink remains a top concern, pushing retailers toward computer vision and smart-exit monitoring pilots.",
+    "implications": [
+      "Focus pilots on high-velocity departments",
+      "Pair shrink mitigation with clear shopper communications"
+    ]
+  },
+  {
+    "trend": "Community-first store experiences",
+    "insight": "Retailers are reactivating in-store traffic through community programming tied to creator and social content.",
+    "implications": [
+      "Partner with local creators for event promotion",
+      "Track dwell time and conversion for event-linked traffic"
+    ]
+  }
+]
