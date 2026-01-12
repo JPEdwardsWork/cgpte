@@ -10,6 +10,8 @@ insights workflow tailored for US retail teams. It combines:
 
 The pipeline normalises all feeds and publishes an HTML dashboard with
 news highlights, curated insights, and charts summarising demand signals.
+The sample data is synthetic and refreshed through February 2025 so you can
+swap in your own exports without changing the pipeline.
 
 ## Running the demo
 
@@ -46,6 +48,19 @@ exports:
 
 The dashboard will automatically pick up the changes the next time you run the
 script.
+
+## Suggested upgrades
+
+- Stream press and trend feeds via webhooks, then store raw payloads for audit
+  trails and reprocessing.
+- Add topic clustering or summarisation for news coverage to reduce noise in
+  the headline list.
+- Introduce anomaly detection on search and traffic signals to trigger alerts
+  for sudden demand shifts.
+- Segment dashboards by region, banner, or category to surface localised
+  opportunities.
+- Publish dashboards on a schedule with a notification workflow (Slack, email,
+  or Teams) when priority thresholds are met.
 
 ## Extending the experience
 

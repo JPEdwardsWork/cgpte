@@ -1,10 +1,10 @@
 [
-  {"date": "2024-05-12", "metric": "ecommerce_conversion", "segment": "Apparel", "value": 1.6},
-  {"date": "2024-05-12", "metric": "ecommerce_conversion", "segment": "Beauty", "value": 1.9},
-  {"date": "2024-05-12", "metric": "foot_traffic_index", "segment": "Big Box", "value": 0.95},
-  {"date": "2024-05-12", "metric": "foot_traffic_index", "segment": "Mall", "value": 1.08},
-  {"date": "2024-05-05", "metric": "ecommerce_conversion", "segment": "Apparel", "value": 1.4},
-  {"date": "2024-05-05", "metric": "ecommerce_conversion", "segment": "Beauty", "value": 1.7},
-  {"date": "2024-05-05", "metric": "foot_traffic_index", "segment": "Big Box", "value": 0.91},
-  {"date": "2024-05-05", "metric": "foot_traffic_index", "segment": "Mall", "value": 1.04}
+  {"date": "2025-02-09", "metric": "ecommerce_conversion", "segment": "Apparel", "value": 1.8},
+  {"date": "2025-02-09", "metric": "ecommerce_conversion", "segment": "Beauty", "value": 2.1},
+  {"date": "2025-02-09", "metric": "foot_traffic_index", "segment": "Big Box", "value": 0.98},
+  {"date": "2025-02-09", "metric": "foot_traffic_index", "segment": "Mall", "value": 1.12},
+  {"date": "2025-02-02", "metric": "ecommerce_conversion", "segment": "Apparel", "value": 1.6},
+  {"date": "2025-02-02", "metric": "ecommerce_conversion", "segment": "Beauty", "value": 1.9},
+  {"date": "2025-02-02", "metric": "foot_traffic_index", "segment": "Big Box", "value": 0.94},
+  {"date": "2025-02-02", "metric": "foot_traffic_index", "segment": "Mall", "value": 1.07}
 ]

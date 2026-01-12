@@ -1,26 +1,26 @@
 [
   {
-    "trend": "Value-driven omnichannel",
-    "insight": "Consumers are bargain hunting online but expect unified promotions across stores and digital touchpoints.",
+    "trend": "Value-seeking omnichannel",
+    "insight": "Shoppers are prioritizing price transparency and expect consistent promotions across mobile, web, and store visits.",
     "implications": [
-      "Audit price parity across owned channels each week",
-      "Bundle loyalty perks with curbside fulfillment offers"
+      "Run weekly price parity checks across owned channels",
+      "Bundle loyalty credits with pickup and delivery offers"
     ]
   },
   {
-    "trend": "Automation to counter shrink",
-    "insight": "Shrink remains elevated, pushing retailers to test AI-driven loss prevention and computer vision at scale.",
+    "trend": "AI-enabled loss prevention",
+    "insight": "Shrink remains a top concern, pushing retailers toward computer vision and smart-exit monitoring pilots.",
     "implications": [
-      "Prioritize high-shrink departments for pilot deployment",
-      "Balance asset protection messaging with privacy assurances"
+      "Focus pilots on high-velocity departments",
+      "Pair shrink mitigation with clear shopper communications"
     ]
   },
   {
-    "trend": "Experience zones for Gen Z",
-    "insight": "Immersive pop-ups and mall events are re-engaging young shoppers, especially when connected to social content.",
+    "trend": "Community-first store experiences",
+    "insight": "Retailers are reactivating in-store traffic through community programming tied to creator and social content.",
     "implications": [
-      "Leverage creators to livestream in-person events",
-      "Use dwell-time analytics to refine experiential layouts"
+      "Partner with local creators for event promotion",
+      "Track dwell time and conversion for event-linked traffic"
     ]
   }
 ]
