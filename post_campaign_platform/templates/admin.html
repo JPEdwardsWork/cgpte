@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Post-Campaign Admin</title>
+    <link rel="stylesheet" href="/static/admin.css" />
+  </head>
+  <body>
+    <h1>Post-Campaign Analysis Admin</h1>
+    <p>OpenAI-native orchestration with multi-client project and reporting stream setup.</p>
+
+    <section>
+      <h2>Create Client</h2>
+      <form method="post" action="/admin/clients">
+        <input name="name" placeholder="Client name" required />
+        <input name="industry" placeholder="Industry" required />
+        <input name="currency" placeholder="USD" value="USD" />
+        <button type="submit">Create Client</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Create Project</h2>
+      <form method="post" action="/admin/projects">
+        <input name="client_id" placeholder="Client ID" required />
+        <input name="name" placeholder="Project name" required />
+        <input name="description" placeholder="Description" />
+        <button type="submit">Create Project</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Create Reporting Stream</h2>
+      <form method="post" action="/admin/streams">
+        <input name="client_id" placeholder="Client ID" required />
+        <input name="project_id" placeholder="Project ID" required />
+        <input name="name" placeholder="Stream name" required />
+        <input name="platforms" placeholder="meta,google_ads,tiktok" />
+        <input name="kpis" placeholder="cpl,roas,cac" />
+        <input name="cadence" placeholder="daily" value="daily" />
+        <button type="submit">Create Stream</button>
+      </form>
+      <small>Supported platform keys: {{ platforms|join(', ') }}</small>
+    </section>
+
+    <section>
+      <h2>Configured Clients</h2>
+      {% if clients %}
+      <ul>
+        {% for client in clients %}
+        <li>
+          <strong>{{ client.name }}</strong> ({{ client.client_id }})
+          <div>Industry: {{ client.industry }} · Currency: {{ client.reporting_currency }}</div>
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <p>No clients configured yet.</p>
+      {% endif %}
+    </section>
+  </body>
+</html>
