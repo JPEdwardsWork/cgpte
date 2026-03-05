@@ -565,3 +565,17 @@ Use of Microsoft trademarks or logos in modified versions of this project must n
 Any use of third-party trademarks or logos are subject to those third-party's policies.
 
 
+
+## Post-Campaign Analysis (OpenAI Edition)
+
+This repository now includes a reference implementation scaffold for a post-campaign analysis platform using OpenAI orchestration and an admin interface for multi-client setup.
+
+- Backend package: `post_campaign_platform/`
+- Admin UI: `GET /admin`
+- Architecture notes: `docs/post_campaign_openai_architecture.md`
+
+Run locally:
+
+```bash
+uvicorn post_campaign_platform.app:app --reload
+```

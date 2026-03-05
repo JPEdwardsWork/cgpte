@@ -33,7 +33,11 @@ dependencies = [
     "jupyter",
     "matplotlib",
     "pydantic",
-    "pypandoc" 
+    "pypandoc",
+    "fastapi",
+    "uvicorn",
+    "jinja2",
+    "python-multipart"
 ]
 
 [project.urls]
