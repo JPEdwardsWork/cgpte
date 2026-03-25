@@ -101,6 +101,19 @@ After running a simulation, we can extract the results in a machine-readable man
 
 You can find other examples in the [examples/](./examples/) folder.
 
+### 🧪 **EXAMPLE 4** *(from [live_dashboard.py](./examples/live_dashboard.py))*
+Need a command-center view while your simulation is running? Start the Streamlit dashboard to track event throughput, sentiment trends, latency, cost, and latest agent messages in near real time:
+
+```bash
+streamlit run examples/live_dashboard.py
+```
+
+You can also point the dashboard at a JSONL event stream:
+
+```bash
+streamlit run examples/live_dashboard.py -- --events path/to/events.jsonl
+```
+
 
 ## Pre-requisites
 
@@ -563,5 +576,4 @@ trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
-
 
